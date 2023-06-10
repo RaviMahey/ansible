@@ -1,6 +1,0 @@
----
-webservers:
-  hosts: "15.206.70.130"
-    web1:
-      ansible_host: 192.168.1.10
-      ansible_user: ubuntu

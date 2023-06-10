@@ -1,2 +1,14 @@
 ---
-host:
+- hosts: all
+  become: true
+  tasks:
+  - name: update repository
+    apt:
+      update_cache: yes
+      
+  - name: install awscli
+    apt:
+      name: awscli
+
+
+
